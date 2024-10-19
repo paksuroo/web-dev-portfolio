@@ -1,0 +1,64 @@
+/*
+
+	Syntax for CSS
+
+	Selector {
+		property: value;
+	}
+
+*/
+
+* {
+	font-family: "Roboto", sans-serif;
+}
+
+h1, p {
+	font-family: "Monserrat". sans-serif;
+}
+
+
+#profile {
+	height: 250px;
+	width: 250px;
+
+	/*Optional	*/
+	border-radius: 50%;
+}
+
+#landing {
+	height: 80vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+footer {
+	background-color: black;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 10px;
+}
+
+.fa-globe, .fa-facebook, .fa-twitter, .fa-instagram, .fa-tiktok, .fa-youtube
+	{
+
+	font-size: 25px;
+	color: white;
+	margin: 0 10px 0 10px;
+}
+
+.fa-globe:hover, .fa-facebook:hover, .fa-twitter:hover, .fa-instagram:hover, .fa-tiktok:hover, .fa-youtube:hover {
+    color: gray;
+}
+
+body	{
+	background-color: #F1E4FF;
+	background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 1000'%3E%3Cg %3E%3Ccircle fill='%23F1E4FF' cx='50' cy='0' r='50'/%3E%3Cg fill='%23efddff' %3E%3Ccircle cx='0' cy='50' r='50'/%3E%3Ccircle cx='100' cy='50' r='50'/%3E%3C/g%3E%3Ccircle fill='%23edd5ff' cx='50' cy='100' r='50'/%3E%3Cg fill='%23ebceff' %3E%3Ccircle cx='0' cy='150' r='50'/%3E%3Ccircle cx='100' cy='150' r='50'/%3E%3C/g%3E%3Ccircle fill='%23e9c7ff' cx='50' cy='200' r='50'/%3E%3Cg fill='%23e7bfff' %3E%3Ccircle cx='0' cy='250' r='50'/%3E%3Ccircle cx='100' cy='250' r='50'/%3E%3C/g%3E%3Ccircle fill='%23e6b7ff' cx='50' cy='300' r='50'/%3E%3Cg fill='%23e4afff' %3E%3Ccircle cx='0' cy='350' r='50'/%3E%3Ccircle cx='100' cy='350' r='50'/%3E%3C/g%3E%3Ccircle fill='%23e3a7ff' cx='50' cy='400' r='50'/%3E%3Cg fill='%23e29fff' %3E%3Ccircle cx='0' cy='450' r='50'/%3E%3Ccircle cx='100' cy='450' r='50'/%3E%3C/g%3E%3Ccircle fill='%23e197ff' cx='50' cy='500' r='50'/%3E%3Cg fill='%23e08eff' %3E%3Ccircle cx='0' cy='550' r='50'/%3E%3Ccircle cx='100' cy='550' r='50'/%3E%3C/g%3E%3Ccircle fill='%23df85ff' cx='50' cy='600' r='50'/%3E%3Cg fill='%23df7cff' %3E%3Ccircle cx='0' cy='650' r='50'/%3E%3Ccircle cx='100' cy='650' r='50'/%3E%3C/g%3E%3Ccircle fill='%23de72ff' cx='50' cy='700' r='50'/%3E%3Cg fill='%23de67ff' %3E%3Ccircle cx='0' cy='750' r='50'/%3E%3Ccircle cx='100' cy='750' r='50'/%3E%3C/g%3E%3Ccircle fill='%23dd5bff' cx='50' cy='800' r='50'/%3E%3Cg fill='%23dd4eff' %3E%3Ccircle cx='0' cy='850' r='50'/%3E%3Ccircle cx='100' cy='850' r='50'/%3E%3C/g%3E%3Ccircle fill='%23dd3fff' cx='50' cy='900' r='50'/%3E%3Cg fill='%23dd2bff' %3E%3Ccircle cx='0' cy='950' r='50'/%3E%3Ccircle cx='100' cy='950' r='50'/%3E%3C/g%3E%3Ccircle fill='%23D0F' cx='50' cy='1000' r='50'/%3E%3C/g%3E%3C/svg%3E");
+	background-attachment: fixed;
+	background-size: contain;
+}
+
+
+
